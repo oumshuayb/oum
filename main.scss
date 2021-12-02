@@ -1,0 +1,13 @@
+.zone1
+{
+
+    background-color: red;
+    .carre { 
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+        &:hover{ 
+            transform: scale(1.5);
+        }
+    }
+}
